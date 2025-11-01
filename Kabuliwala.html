@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kabuliwala — Bilingual Story (English / తెలుగు)</title>
+  <style>
+    :root{
+      --max-width:900px;
+      --gap:18px;
+      --bg:#fbfbfb;
+      --card:#ffffff;
+      --muted:#555;
+    }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Serif Telugu", "Telugu MN", sans-serif;
+      background:linear-gradient(180deg,var(--bg),#f2f7ff 60%);
+      color:#111;
+      display:flex;
+      justify-content:center;
+      padding:28px 16px;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--max-width);
+      background:var(--card);
+      border-radius:12px;
+      box-shadow:0 8px 30px rgba(20,30,60,0.08);
+      padding:22px;
+    }
+    header{
+      text-align:center;
+      margin-bottom:14px;
+    }
+    h1{ margin:0 0 6px; font-size:1.4rem; }
+    p.subtitle{ margin:0; color:var(--muted); font-size:0.95rem; }
+    .story{
+      display:flex;
+      gap:var(--gap);
+      margin-top:18px;
+    }
+    /* Two-column bilingual layout */
+    .col{
+      flex:1 1 0;
+      min-width:200px;
+      padding:12px;
+      border-radius:10px;
+      background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(250,250,255,0.6));
+    }
+    .col h2{ font-size:1rem; margin:0 0 10px; }
+    .pair{ margin-bottom:12px; line-height:1.45; }
+    .en{ font-size:0.98rem; }
+    .te{ font-size:1rem; font-family:"Noto Serif Telugu", "Noto Sans Telugu", "Telugu MN", serif; direction:ltr; }
+    footer{ margin-top:14px; color:var(--muted); font-size:0.9rem; text-align:right; }
+    @media (max-width:700px){
+      .story{ flex-direction:column; }
+      footer{ text-align:left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap" role="article" aria-labelledby="title">
+    <header>
+      <h1 id="title">Kabuliwala — A Short Bilingual Story</h1>
+      <p class="subtitle">English (left) and Telugu (right) — each paragraph shown side-by-side for easy reading.</p>
+    </header>
+
+    <section class="story" aria-label="Bilingual story">
+      <div class="col" lang="en" aria-label="English">
+        <h2>English</h2>
+
+        <div class="pair">
+          <p class="en">Kabuliwala was a kind man from Afghanistan.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">He came to India to sell fruits.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">One day, he met a little girl named Mini.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">She was very curious and loved to play with her ball.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Kabuliwala liked Mini very much.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">He used to visit her often and give her dry fruits from his basket.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Mini's parents were not happy with this, but Mini loved Kabuliwala very much.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">One day, Kabuliwala came back home very sad.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">He told Mini that he would be going back to Afghanistan soon.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Mini was very sad too.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">She had grown up thinking of Kabuliwala as her friend.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Kabuliwala gave Mini a promise.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">He said that he will come back to India after a few months and visit her again.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">But he also said that he might not look the same when he comes back.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Years went by and Kabuliwala kept his promise.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">He came to Mini's house but he looked very different.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">He was very old and weak.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Mini was sad to see him like this.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Kabuliwala told Mini that he was old and it was time for him to go back to Afghanistan.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">He said that he was happy to have met her and that she should always remember him in her heart.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">And with that, Kabuliwala went back to his home.</p>
+        </div>
+
+        <div class="pair">
+          <p class="en">Mini never forgot her kind friend Kabuliwala.</p>
+        </div>
+      </div>
+
+      <div class="col" lang="te" aria-label="Telugu">
+        <h2>తెలుగు</h2>
+
+        <div class="pair">
+          <p class="te">కాబూలివాలా ఆఫ్ఘనిస్తాన్ నుండి వచ్చిన దయగల వ్యక్తి.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">అతను పండ్లు అమ్మడానికి భారతదేశానికి వచ్చాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">ఒక రోజు, అతను మినీ అనే చిన్న అమ్మాయిని కలిశాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">ఆమె చాలా ఆసక్తిగా ఉండేది మరియు ఆమె బంతితో ఆడటానికి ఇష్టపడేది.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">కాబూలివాలాకు మినీ అంటే చాలా ఇష్టం.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">అతను తరచుగా ఆమెను సందర్శించి తన బుట్టలో నుండి డ్రై ఫ్రూట్స్ ఇచ్చేవాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">మినీ తల్లిదండ్రులు దీనితో సంతోషంగా లేరు, కానీ మినీ కాబూలివాలాను చాలా ప్రేమించింది.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">ఒక రోజు, కాబూలివాలా చాలా విచారంగా ఇంటికి తిరిగి వచ్చాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">అతను త్వరలోనే ఆఫ్ఘనిస్తాన్ తిరిగి వెళ్తున్నానని మినీకి చెప్పాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">మినీ కూడా చాలా విచారంగా ఉంది.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">ఆమె కాబూలివాలాను తన స్నేహితుడిగా భావిస్తూ పెరిగింది.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">కాబూలివాలా మినీకి ఒక వాగ్దానం చేశాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">కొన్ని నెలల తర్వాత భారతదేశానికి తిరిగి వస్తాను మరియు ఆమెను మళ్లీ సందర్శిస్తానని అతను చెప్పాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">కానీ అతను తిరిగి వచ్చినప్పుడు అతను ఒకేలా కనిపించకపోవచ్చునని కూడా చెప్పారు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">సంవత్సరాలు గడిచాయి మరియు కాబూలివాలా తన వాగ్దానాన్ని నిలబెట్టుకున్నాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">అతను మినీ ఇంటికి వచ్చాడు కానీ అతను చాలా భిన్నంగా కనిపించాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">అతను చాలా వృద్ధుడు మరియు బలహీనంగా ఉన్నాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">మినీ అతన్ని ఇలా చూడటం బాధగా ఉంది.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">కాబూలివాలా మినీతో చెప్పించాడు అతను వృద్ధుడని, ఆఫ్ఘనిస్తాన్‌కు తిరిగి వెళ్లాల్సిన సమయం ఆసన్నమైందన్నారు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">ఆయన ఆమెను కలవడం సంతోషంగా ఉందని, ఆమె ఎప్పుడూ తన హృదయంలో తనను గుర్తుంచుకోవాలని అధికారులు అన్నారు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">దానితో, కాబూలివాలా తన ఇంటికి తిరిగి వెళ్ళాడు.</p>
+        </div>
+
+        <div class="pair">
+          <p class="te">మినీ తన దయగల స్నేహితుడు కాబూలివాలాను ఎప్పుడూ మర్చిపోలేదు.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <small>Presented in English &amp; Telugu — lang attributes set for accessibility.</small>
+    </footer>
+  </div>
+</body>
+</html>
